@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/logo.PNG" type="image/png">
     <link href="./style.css" rel="stylesheet" >
     <script src="script.js" defer></script>
     <title>Churrascometro</title>
     
 </head>
 <body>
+
+    </div>
     <head>
         <div class="title">
         <h1>Churrascometro</h1>
@@ -17,9 +20,12 @@
     </head>
 
     <div id="container">
-        <input id="adultos" type="number" placeholder="Quantidade de Adulto" required >
-        <input id="criancas" type="number" placeholder="Quantidade de Criança" required>
-        <input id="duracao" type="number" placeholder="Quantas horas de duração" required>
+        <p>Quantidade de Adultos</p>
+        <input id="adultos" type="number" placeholder="Adultos" required > 
+        <p>Quantidade de Criancas</p>       
+        <input id="criancas" type="number" placeholder="Crianças" required>
+        <p>Duração do Churrasco</p>
+        <input id="duracao" type="number" placeholder="Duração (H)" required>
         <button onclick="calcular()">Calcular</button>
     
     <div id="resultado">
