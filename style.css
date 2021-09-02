@@ -1,0 +1,27 @@
+body{
+    background-color: #F4F7CB;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+h1{
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    max-width: 300px;
+    margin: auto;
+    background-color: #859699;
+    padding: 15px;
+    border-radius: 10px;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
