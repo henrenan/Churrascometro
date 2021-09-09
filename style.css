@@ -1,13 +1,30 @@
 body{
     background-image: url(./imagens/back2.jpg);
-    background-size: 100%;
+    background-size: 100% 170%;
+    
 
 }
+.menu{
+    display:inline-flex;
+    background-color: blueviolet;
+    font-size: 22px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
 .title{
-    text-align: center;
+    display:inline-flex;
+    margin-left: 10%;
     font-size: 30px;
     color: #D5A075;
-}
+    background-color: rgb(43, 183, 226);
+    padding: 0;
+   }
+   
 p{
     color: #D5A075;
     font-size: 25px;
