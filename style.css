@@ -1,52 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 body{
+    margin: 0;
     background-image: url(./imagens/back2.jpg);
     background-size: 100% 170%;
+    font-family: "Roboto", "Helvetica Neue";
     
-
 }
+
+a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: #D5A075;
+    font-size: 28px;
+}
+
 .menu{
-    display:inline-flex;
-    background-color: blueviolet;
-    font-size: 22px;
-}
-
-ul{
-    display: flex;
-    list-style: none;
-    padding: 0;
+    text-align: right;
+    float:right;
+    margin-top: 30px;
 }
 
 .title{
-    display:inline-flex;
-    margin-left: 10%;
-    font-size: 30px;
+    display: inline-block;
+    font-size: 20px;
     color: #D5A075;
-    background-color: rgb(43, 183, 226);
-    padding: 0;
+    margin-left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    
    }
    
 p{
     color: #D5A075;
     font-size: 25px;
     margin: 0px;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 5px;
-}
-
-h1{
-    margin-top: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #container{
     text-align: center;
-    width: 400px;
+    width: 300px;
     height: 250px;
-    margin-left: 5%;
+    margin-left: 10%;
     border-radius: 10px;
 }
 input{
     font-size: 20px;
+    text-align: center;
     display: block;
     width: 100%;
     padding: 5px;
