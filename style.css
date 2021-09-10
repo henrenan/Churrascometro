@@ -11,7 +11,7 @@ body{
 a{
     text-decoration: none;
     margin-right: 50px;
-    color: #D5A075;
+    color: #BF7967;
     font-size: 28px;
 }
 
@@ -24,15 +24,15 @@ a{
 .title{
     display: inline-block;
     font-size: 20px;
-    color: #D5A075;
+    color: #BF7967;
     margin-left: 8%;
     font-family: Arial, Helvetica, sans-serif;
     
    }
    
 p{
-    color: #D5A075;
-    font-size: 25px;
+    color: #BF7967;
+    font-size: 20px;
     margin: 0px;
     margin-top: 25px;
     margin-bottom: 5px;
@@ -56,6 +56,18 @@ input{
     border-radius: 10px;
 }
 button{
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 10px;
+    margin-top: 10px;
+}
+
+#resultado{
+    left:50%;
+    top:50%;
+    margin-left:-100px; /* Metade do valor da Largura */
+    margin-top:-140px; /* Metade da valor da Altura */
+    position: absolute;
+    width:200px; /* Valor da Largura */
+    height:100px; /* Valor da Altura */
+    font-size: 500px;
 }
