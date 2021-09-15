@@ -4,31 +4,56 @@ body{
     margin: 0;
     background-image: url(./imagens/back2.jpg);
     background-size: 100% 170%;
-    font-family: "Roboto", "Helvetica Neue";
-    
+    font-family: "Roboto", "Helvetica Neue";   
+}
+
+/*Header*/
+body ul li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 
 a{
     text-decoration: none;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+li{
+    text-decoration: none;
     margin-right: 50px;
     color: #BF7967;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .menu{
-    text-align: right;
-    float:right;
-    margin-top: 30px;
+    display: flex;
+    
+}
+.menu li{
+    margin-left: 25px;
+}
+.menu li a {
+    color: #BF7967;
+    display: block;
+    padding: 10px;
 }
 
 .title{
-    display: inline-block;
+    
     font-size: 20px;
     color: #BF7967;
-    margin-left: 8%;
     font-family: Arial, Helvetica, sans-serif;
     
    }
+
+   /* Body*/
    
 p{
     color: #BF7967;
@@ -67,7 +92,6 @@ button{
     margin-left:-100px; /* Metade do valor da Largura */
     margin-top:-140px; /* Metade da valor da Altura */
     position: absolute;
-    width:200px; /* Valor da Largura */
-    height:100px; /* Valor da Altura */
-    font-size: 500px;
+    font-size: 50px;
 }
+/*footer*/
