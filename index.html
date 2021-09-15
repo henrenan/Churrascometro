@@ -4,37 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./imagens/logo.PNG" type="image/png">
+    <link rel="icon" href="./imagens/logo.png" type="image/png">
     <link href="./style.css" rel="stylesheet" >
     <script src="script.js" defer></script>
     <title>Churrascometro</title>
     
 </head>
 <body>
-
-    </div>
-    <head>
-        <div class="title">
-        <h1>Churrascometro</h1>
+    
+    <header>
+        <div class="title"> 
+            <h1>Churrascometro</h1>
         </div>
-    </head>
 
+            <nav >
+                <ul class="menu">
+                    <li><a href="#">Menu 1</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                    <li><a href="#">Menu 3</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
     <div id="container">
         <p>Quantidade de Adultos</p>
         <input id="adultos" type="number" placeholder="Adultos" required > 
-        <p>Quantidade de Criancas</p>       
+        <p>Quantidade de Crianças</p>       
         <input id="criancas" type="number" placeholder="Crianças" required>
         <p>Duração do Churrasco</p>
         <input id="duracao" type="number" placeholder="Duração (H)" required>
         <button onclick="calcular()">Calcular</button>
+
+        </div>
+            <div id="resultado"></div>
+        </div>
     
-    <div id="resultado">
-
-    </div>
-
-
-    </div>
-    <main>
 
 
     </main>
