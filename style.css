@@ -17,6 +17,7 @@ body ul li{
 a{
     text-decoration: none;
 }
+
 header{
     display: flex;
     flex-wrap: wrap;
@@ -46,11 +47,11 @@ li{
 }
 
 .title{
-    text-decoration: none;
     margin-left: 40px;
     font-size: 40px;
     color: #BF7967;
     padding: 10px;
+
 
    }
 
